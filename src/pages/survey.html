@@ -21,34 +21,37 @@
         <input type="text" name="" id="" placeholder="Enter date of birth">
 
         <label for="">Gender</label>
-       
-        <select class="form-control" placeholder="">
+    
+        <input list="gender" placeholder="Select an option">
+    <datalist id="gender" class="form-control" placeholder="">
      <option value="" disabled selected>Select an option</option>
      <option value="Male">Male</option>
      <option value="Female">Female</option>
      <option value="Other">Other</option>
-  </select>
+  </datalist>
 
         <label for="">Aadhaar number</label>
         <input type="text" name="" id="" placeholder="Enter Aadhaar number">
 
         <label for="">This is your mobile?</label>
-        <select class="form-control" placeholder="">
+    
+                <input list="mobile_owner" placeholder="Select an option">
+<datalist id="mobile_owner" class="form-control" placeholder="">
      <option value="" disabled selected>Select an option</option>
-     <option value="Male">Yes</option>
-     <option value="Female">No</option>
-  </select>
+     <option value="Yes">Yes</option>
+     <option value="No">No</option>
+  </datalist>
 
         <label for="">Describe loan reason in detail</label>
         <textarea name="" id="" cols="30" rows="10"></textarea>
 
 
         <label for="">Do you have any pending loan with a bank or loan company?</label>
-        <select class="form-control" placeholder="">
-     <option value="" disabled selected>Select an option</option>
-     <option value="Male">Yes</option>
-     <option value="Female">No</option>
-  </select>
+        <input list="pending_loan" placeholder="Select an option">
+  <datalist id="pending_loan" class="form-control" placeholder="">
+     <option value="Yes">Yes</option>
+     <option value="No">No</option>
+ </datalist>
     </form>
     <div class="nav">
         <a href="" class="lsk">Back</a>
