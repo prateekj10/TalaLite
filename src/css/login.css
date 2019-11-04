@@ -1,0 +1,43 @@
+form.basic{
+    padding: 9px;
+    width: 222px;
+  }
+  
+  form.basic label{
+    display: block;
+    width: 220px;
+    height: 16px;
+    opacity: 0.79;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323232;
+  }
+  
+  form.basic input{
+    display: block;
+    height: 36px;
+    opacity: 0.79;
+    border-radius: 2px;
+    border: solid 1px #aaaaaa;
+    margin-top: 9px;
+    font-size: 14px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  form.basic input+label{
+    margin-top: 12px;
+  }
+  form.basic .primary{
+    display: block;
+    max-width:100%;
+    height: 36px;
+    background-color: #ff6a13;
+    color:#fff;
+    border: none;
+    margin-top: 24px;
+  }

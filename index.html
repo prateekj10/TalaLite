@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
-
-    <title>Hello World</title>
+    <link rel="stylesheet" href="src/css/login.css">
+    <title>Hello World!!</title>
 
     <style>
       body {
@@ -15,12 +15,21 @@
     <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
          so we use a script file. -->
     <script src="app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/naviboard@4.1.0/dist/naviboard.min.js"></script>
 
   </head>
 
   <body>
     <!-- This code is in the public domain. Enjoy! -->
-    <h1>Hello World</h1>
+    
+    <form action="" class="basic">
+      <label for="">Mobile number</label>
+      <input type="text" name="" id="" placeholder="Enter Mobile Number">
+      <label for="">PIN</label>
+      <input type="text" name="" id="" placeholder="Enter 4 digit PIN">
+      <input type="submit" value="Login" name="" class="primary">
+    </form>
+    
   </body>
 
 </html>
