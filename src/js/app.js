@@ -1,11 +1,4 @@
 window.addEventListener("load", function() {
   console.log("Hello World!");
+  confirm("Do you want to continue ?");
 });
-
-function myFunc() {
-  alert('hello world!');
-};
-
-function loanDecision() {
-
-};
