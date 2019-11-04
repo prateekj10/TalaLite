@@ -10,5 +10,14 @@
     "name": "Your name",
     "url": "http://example.com"
   },
-  "cursor": true
+  "cursor": true,
+  "permissions": {
+    "contacts": {
+      "description": "Required to use for credit model for underwriting.",
+      "access": "readonly"
+    },
+    "geolocation": {
+      "description": "Required for accessing location on the device."
+    }
+  }
 }

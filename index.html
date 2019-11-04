@@ -20,7 +20,7 @@
   <body>
     <!-- This code is in the public domain. Enjoy! -->
      <div class="header">Login</div>
-    <form action="src/pages/survey.html" class="basic">
+    <form onsubmit="return checkPermissions();" method="post" action="src/pages/survey.html" class="basic">
       <label for="">Mobile number</label>
       <input type="text" name="" id="" placeholder="Enter Mobile Number">
       <label for="">PIN</label>
