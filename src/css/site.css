@@ -1,67 +1,68 @@
-
-body{
+body {
     font-family: Roboto;
 }
 
-.header{
-  background: #24b2b2;
-  text-align: center;
-  color: #fff;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  width: 240px;
-  font-size: 17px;
+.header {
+    background: #24b2b2;
+    text-align: center;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 240px;
+    font-size: 17px;
 }
 
-form.basic{
-  padding: 9px;
-  width: 222px;
-  display: block;
+form.basic {
+    padding: 9px;
+    width: 222px;
+    display: block;
 }
 
-form.basic label{
-  display: block;
-  width: 220px;
-  opacity: 0.79;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #323232;
+form.basic label {
+    display: block;
+    width: 220px;
+    opacity: 0.79;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323232;
 }
 
-form.basic input{
-  display: block;
-  height: 36px;
-  opacity: 0.79;
-  border-radius: 2px;
-  border: solid 1px #aaaaaa;
-  margin-top: 9px;
-  font-size: 14px;
-  padding-left: 9px;
-  padding-right: 9px;
-  width: -webkit-fill-available;
+form.basic input {
+    display: block;
+    height: 36px;
+    opacity: 0.79;
+    border-radius: 2px;
+    border: solid 1px #aaaaaa;
+    margin-top: 9px;
+    font-size: 14px;
+    padding-left: 9px;
+    padding-right: 9px;
+    width: -webkit-fill-available;
 }
+
 form.basic input+label,
 form.basic select+label,
-form.basic textarea+label{
-  margin-top: 12px;
-}
-form.basic .primary{
-  display: block;
-  max-width:100%;
-  height: 36px;
-  background-color: #ff6a13;
-  color:#fff;
-  border: none;
-  margin-top: 24px;
+form.basic textarea+label {
+    margin-top: 12px;
 }
 
-form.basic select{
+form.basic .primary {
     display: block;
-    height:40px;
+    max-width: 100%;
+    height: 36px;
+    background-color: #ff6a13;
+    color: #fff;
+    border: none;
+    margin-top: 24px;
+}
+
+form.basic select {
+    display: block;
+    height: 40px;
     font-size: 14px;
     border-radius: 2px;
     border: solid 1px #aaaaaa;
@@ -69,7 +70,7 @@ form.basic select{
     width: -webkit-fill-available;
 }
 
-form.basic textarea{
+form.basic textarea {
     width: -webkit-fill-available;
     display: block;
     margin-top: 9px;
@@ -78,36 +79,46 @@ form.basic textarea{
     border-radius: 2px;
     border: solid 1px #aaaaaa;
 }
-.nav{
-  width: 230px;
-  background: #ccc;
-  padding-left: 5px;
-  padding-right: 5px;
+
+.nav {
+    width: 230px;
+    background: #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.nav a{
-  display: block;
-  width: 33%;
-  color: #323232;
-  text-decoration: none;
-  font-size: 14px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+
+.nav a {
+    display: block;
+    width: 33%;
+    color: #323232;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-.nav .lsk{
-  float: left;
+
+.nav .lsk {
+    float: left;
 }
-.nav .csk{
-  float: left;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
+
+.nav .csk {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
 }
-.nav .rsk{
-  float: right;
-  text-align: right;
+
+.nav .rsk {
+    float: right;
+    text-align: right;
 }
-.cb{
-  display: block;
-  clear: both;
+
+.cb {
+    display: block;
+    clear: both;
+}
+
+.loan-decision {
+    margin-bottom: 40px;
 }
